@@ -54,12 +54,12 @@ The install script symlinks config directories to `~/.config/`. Existing configs
 ## 📦 Dependencies
 
 ```bash
-pacman -S niri ghostty rofi-wayland nautilus
+pacman -S niri ghostty rofi nautilus
 ```
 
 ```bash
 # AUR / manual install
-yay -S hyprlock noctalia-git quickshell-git
+paru -S hyprlock noctalia-git quickshell-git
 ```
 
 > **Note:** Adjust AUR package names as needed — check CachyOS repos first as some may be available there.
@@ -83,4 +83,4 @@ Hyprlock with Tokyo Night colors, blurred screenshot background, and a dynamic t
 
 ## 📄 License
 
-This repo is under a permissive MIT License that you can read about [here](LICENSE.MD).
+This repo is under a permissive MIT License that you can read about [here](LICENSE.md).
